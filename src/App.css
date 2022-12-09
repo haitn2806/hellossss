@@ -327,7 +327,7 @@ button {
 
 /* Animation */
 
-@keyframes toleft {
+/* @keyframes toleft {
     0% {
         left: 20%;
     }
@@ -342,4 +342,4 @@ button {
     100% {
         left: 0%;
     }
-}
+} */
