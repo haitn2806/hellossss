@@ -1,0 +1,140 @@
+.banner {
+  position: relative;
+  widows: 100%;
+  /* min-height: 100vh; */
+  /* height: max-content; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(4, 4, 4,0.2);
+}
+.banner .noi_dung {
+  position: absolute;
+  width: 80%;
+  font-size: x-large;
+  z-index: 2;
+  margin-left: 12%;
+  /* background-color: rgb(0, 0, 0,0.2); */
+}
+@keyframes noidung {
+  0% {
+
+  }
+  100%{
+
+  }
+  
+}
+.banner .noi_dung h2 {
+  color: #fff;
+  font-size: 3.5em;
+  font-family: 'Poppins', cursive;
+  position: relative;
+  left: 0%;
+  animation: movevideo 2s forwards;
+}
+.banner .noi_dung p {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 5px 0px 25px;
+  position: relative;
+  left: 0%;
+}
+.slogan1{
+  animation: movevideo 3s forwards;
+}
+.slogan2{
+  animation: movevideo 4s forwards;
+}
+.slogan3{
+  animation: movevideo 5s forwards;
+}
+/* .banner .noi_dung a {
+  position: relative;
+  display: inline-block;
+  background: #fff;
+  color: #111;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 500;
+  
+} */
+/* .banner .video-bg {
+  position: relative;
+  background: #fff;
+  width: 900px;
+  height: 500px;
+  z-index: 1;
+  margin-left: 5%;
+} */
+.banner .icon_mang_xa_hoi {
+  position: absolute;
+  bottom: 20px;
+  letter-spacing: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .icon_mang_xa_hoi li {
+  list-style-type: none;
+}
+.banner .icon_mang_xa_hoi li i {
+  display: inline-block;
+  margin: 15px;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+.banner .video-bg video {
+  opacity: 1;
+}
+.banner:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.9;
+}
+.banner video {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: auto!important;
+  object-fit: cover;
+  opacity: 0.6;
+  pointer-events: none;
+}
+/* @keyframes movevideo{
+  0%{
+     left:100%;
+  }
+  100%{
+    left: 0%;
+  }
+} */
+
+@media screen and (max-width: 1120px) {
+  .noi_dung h2{
+    font-size: 50px !important;
+  }
+  .noi_dung p{
+    font-size: 20px !important;
+  }
+  .video-whychoose{
+    height: 350px !important;
+  }
+}
+@media only screen and  (max-width: 850px) {
+  .noi_dung h2{
+    font-size: 20px !important;
+  }
+  .noi_dung p{
+    font-size: 12px !important;
+  }
+}

@@ -1,0 +1,144 @@
+.payment-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.payment {
+  width: 100%;
+  max-width: 800px;
+  background: #fff;
+  padding: 24px 48px 24px 48px;
+  border-radius: 2px;
+  margin: 24px;
+  align-self: center;
+  box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+
+.form-payment {
+  min-height: 100px;
+  text-align: center;
+}
+
+.form-group ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 12px;
+}
+
+.form-group ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.form-method {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.method-options{
+  display: flex;
+  justify-content: space-between;
+}
+
+.method {
+  display: flex;
+  align-items: center;
+}
+
+.method-option {
+  margin-left: 8px;
+  font-size: 45px;
+}
+
+.method-visa {
+  display: none;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.active {
+  display: flex;
+}
+
+.visa-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.visa-content div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.visa-name div,
+.visa-number div,
+.visa-date div {
+  flex-direction: column;
+  width: 50%;
+}
+
+.visa-name div:nth-child(1),
+.visa-number div:nth-child(1),
+.visa-date div:nth-child(1) {
+  margin-right: 25px;
+}
+
+.method-paypal {
+  display: none !important;
+  flex-direction: column;
+}
+
+.buyer-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buyer-name div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.buyer-name div:nth-child(1) {
+  margin-right: 25px;
+}
+
+.ship-city {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ship-city div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.ship-city div:nth-child(1) {
+  margin-right: 25px;
+}
+
+.form-control--payment {
+  height: 40px;
+  padding: 8px 12px;
+  border: 1px solid #b3b3b3 !important;
+  border-radius: 3px;
+  outline: none;
+  font-size: 0.8rem;
+}
+
+.form-message--payment {
+  font-size: 0.8rem !important;
+  font-weight: 400 !important;
+  line-height: 1.6rem;
+  text-align: left;
+  margin-bottom: 12px;
+}

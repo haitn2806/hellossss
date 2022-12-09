@@ -1,0 +1,345 @@
+.App {
+    text-align: center;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    border: none;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+
+svg,
+button {
+    cursor: pointer;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: dimgray;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: dimgray;
+}
+
+.white {
+    color: white;
+}
+
+.border-white {
+    border: 1px solid white;
+}
+
+h2 {
+    font-size: 16px !important;
+}
+.h1-normal {
+    margin-top: 4%;
+}
+.line-bottom {
+    border-bottom: 1px solid white;
+}
+
+/* button bình thường  */
+.btn-normal {
+    padding: 9px 19px;
+    border: 1px solid silver;
+    color: silver;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.btn-normal:hover {
+    border: 1px solid darkgoldenrod !important;
+    color: darkgoldenrod !important;
+}
+/* button khi click vào */
+.btn-active {
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.full {
+    width: 100%;
+}
+/* link khi hover */
+.hover-gold:hover {
+    color: darkgoldenrod;
+}
+
+/* CSS Form general */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.logo {
+    width: 84px;
+    height: 84px;
+}
+
+.desc {
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.spacer {
+    margin-top: 20px;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+
+.form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 0.8rem;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: #b8bd30;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heading {
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.go-home {
+    padding: 9px;
+    margin-top: 4px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.go-home:hover {
+    background-color: #b8bd30;
+    color: #fff;
+    transition: 0.2s;
+}
+
+/* CSS Nation general */
+
+.support-1 {
+    text-align: center;
+    color: white;
+    background-color: burlywood;
+    padding: 1% 0 1% 0;
+}
+
+.title-tops {
+    font-size: 20px;
+    padding-bottom: 1%;
+}
+
+.title-middle {
+    font-size: 70px;
+    color: burlywood;
+    background-color: snow;
+}
+
+.title-bot {
+    font-size: 20px;
+    padding-top: 1%;
+}
+
+.place {
+    display: flex;
+}
+
+.place-1 {
+    width: 50%;
+    background-image: url("./data/images/banner/33.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.a00010 {
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: fantasy;
+    margin: 2% 30% 0 0;
+}
+
+.p-under-title {
+    width: 100%;
+    padding: 0 5%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.img-title {
+    width: 50%;
+}
+svg,
+button {
+    cursor: pointer;
+}
+
+.main-home {
+    margin: 1% auto;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    transition: 0.75s;
+}
+.title-home {
+    text-align: center;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: black;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #666666;
+
+    align-items: center;
+}
+.btn-submit {
+    padding: 10px 20px !important;
+}
+.normal {
+    font-weight: normal;
+}
+@media only screen and (max-width: 850px) {
+    *{
+        transition: none !important;
+    }
+    .main-home {
+        font-size: 30px;
+    }
+
+    hr {
+        width: 60%;
+        /* border: 2px solid darkgoldenrod; */
+        /* color: darkgoldenrod !important; */
+        transition: 0.5s;
+        text-align: center;
+        margin: 0 auto;
+    }
+    li {
+        font-size: 12px !important;
+    }
+    .title-home {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 15px;
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 10px !important;
+    }
+    button {
+        font-size: 10px !important;
+    }
+    a {
+        font-size: 10px !important;
+    }
+    /* div{
+    font-size: 10px !important;
+  } */
+    span {
+        font-size: 10px !important;
+    }
+    input {
+        font-size: 10px !important;
+    }
+    .btn-active,
+    .btn-normal {
+        font-size: 10px;
+    }
+}
+
+/* Animation */
+
+@keyframes toleft {
+    0% {
+        left: 20%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+@keyframes toright {
+    0% {
+        left: -20%;
+    }
+    100% {
+        left: 0%;
+    }
+}

@@ -1,0 +1,75 @@
+.slide-blog-container {
+  margin: 4% auto;
+  background-color: #ccc;
+  padding: 20px 0px;
+}
+
+.slide-blog-title {
+}
+
+.slide-blog-title {
+  text-align: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: black;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slide-blog-title:hover {
+  text-shadow: 5px 0px 5px rgb(0, 0, 0, 0.5);
+  color: darkgoldenrod;
+}
+
+.slide-blog-p {
+  width: 90%;
+  margin: 10px auto;
+}
+.blog-seemore {
+  padding: 30px 0px;
+}
+.img-blog {
+  width: 40%;
+  height: auto;
+  margin-right: 4%;
+}
+.maximum {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.mider {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  transition: 0.5s;
+  left: 0%;
+}
+.mid1 {
+  display: block;
+}
+.imgslide {
+  width: 90%;
+}
+.icon-react {
+  font-size: 25px;
+  margin: 0 10px;
+}
+.icon-react:hover {
+  color: darkgoldenrod;
+}
+
+.slide {
+  margin-bottom: 20px;
+  padding: 0 15%;
+}
+
+@media only screen and (max-width: 850px) {
+  .slide-blog-title {
+    font-size: 18px;
+  }
+}

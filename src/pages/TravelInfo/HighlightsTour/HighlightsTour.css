@@ -1,0 +1,104 @@
+.tour-highlights {
+  align-items: flex-start;
+  /* background-color:rgb(217, 215, 215); */
+  width: 90%;
+  height: 100%;
+  margin: 4% auto;
+
+  font-size: 16px;
+  display: block;
+  padding: 5% 2%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.highlight-line {
+  text-align: center;
+  /* color:white !important; */
+}
+
+.hightlight-content {
+  display: flex;
+  margin: 0 auto;
+
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.mid {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.btn-seemoreHL {
+  text-align: end;
+}
+
+.tour-intro {
+    width: 45%;
+}
+
+.image-hl {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.tour-highlight {
+  width: 55%;
+  /* height: 340px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.tour-highlight-list {
+  text-align: start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* color:white; */
+  font-size: 14px;
+  padding-right: 10px;
+  flex: 1;
+}
+
+.tour-highlight-check {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.image-highlights {
+    width: 50%;
+}
+
+@media only screen and (max-width: 850px) {
+    .mid {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .tour-highlight,
+    .image-highlights {
+        width: 100%;
+    }
+    .image-hl {
+        width: 100%;
+        height: 100%;
+    }
+    .tour-highlights h2,
+    .your-choice h2 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .yourchoice-line:after {
+        margin-bottom: 10px;
+    }
+
+  .tour-highlight {
+    margin-top: 7px;
+    height: 100%;
+    overflow: hidden;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+.time-feed {
+  /* font-size: 26px; */
+}
+
+.paginationBttns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+.paginationActive {
+  color: black !important;
+}

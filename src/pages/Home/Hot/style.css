@@ -1,0 +1,100 @@
+.hot-tour {
+    margin-top: 3%;
+    padding: 0 5%;
+}
+
+.hot-container {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* .hot-title {
+  text-align: center;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: black;
+  transition: 0.5s;
+  position: relative;
+  left: 0%;
+  animation: title forwards 2s;
+} */
+
+.hot-title:hover {
+    text-shadow: 5px 0px 5px rgb(0, 0, 0, 0.5);
+    color: darkgoldenrod;
+}
+
+/* .hot-title:hover .hr-hot{
+    width: 60% ;
+} */
+
+.hr-hot {
+    width: 60%;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod !important;
+    transition: 0.5s;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hot-main {
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.hot-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.hot-grid1,
+.hot-grid2 {
+    display: flex;
+    width: 100% !important;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.hot-box1 {
+    width: 40%;
+    flex: 1;
+    min-width: 350px;
+    margin: 5px;
+    height: 70vh;
+}
+.hot-box2 {
+    width: 30%;
+    min-width: 350px;
+    flex: 1;
+    margin: 5px;
+    height: 60vh;
+}
+@media only screen and (max-width: 1200px) {
+    .hot-box {
+        height: 60vh;
+    }
+
+    .title-box {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .hot-box {
+        width: 100% !important;
+        height: 60vh;
+        flex: auto;
+    }
+
+    .tour-info {
+        margin-top: 1%;
+    }
+}

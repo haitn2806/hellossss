@@ -1,0 +1,117 @@
+.WhyTravel {
+  margin: 5% 0;
+}
+
+.WhyTravel-title{
+  transition: 1s;
+}
+.WhyTravel-title:hover {
+  text-shadow: 5px 0px 5px rgb(0, 0, 0, 0.5);
+  color: darkgoldenrod;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.WhyTravel-content {
+  width: 85%;
+  margin: -2% 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.img-content {
+  padding-top: 10%;
+
+  padding-bottom: 10%;
+}
+
+.container-img {
+  display: flex;
+}
+
+.img-content img {
+  width: 75%;
+  height: 100%;
+}
+
+.container-card {
+  width: 85%;
+  margin: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.content {
+  width: 30%;
+  min-width: 250px;
+}
+
+.card {
+  box-shadow: darkgoldenrod 0px 7px 15px 0px;
+  height: 50%;
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.card-icon {
+  position: relative;
+
+  top: -20px;
+  left: calc(50% - 20px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(24, 196, 115);
+}
+
+.icon {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 20px;
+  font-size: 25px;
+}
+
+.icon:nth-of-type(1) {
+  transform: rotate(45deg);
+}
+
+.text {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px 20px;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 345px) and (max-width: 600px){
+  .WhyTravel-title{
+    font-size: 18px;
+  }
+}

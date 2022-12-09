@@ -1,0 +1,196 @@
+.body-family {
+    background-image: url("../../data/images/banner/family.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.body-adventure {
+    background-image: url("../../data/images/banner/Adventure.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.body-beach {
+    background-image: url("../../data/images/banner/Beach.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.body-classic {
+    background-image: url("../../data/images/banner/40.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.body-cruises {
+    background-image: url("../../data/images/banner/Cruises.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.body-shorttrips {
+    background-image: url("../../data/images/banner/Shorttrips.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.body-culinary {
+    background-image: url("../../data/images/banner/Culinary.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.travelstyle-content {
+    text-align: center;
+    padding-top: 3%;
+    font-family: "Poppins", cursive;
+    color: white;
+    font-size: 140px;
+}
+
+.middle-page {
+    color: #494949;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 300;
+    white-space: pre-wrap;
+    padding: 2% 5%;
+}
+
+.end-page {
+    background-color: dimgray;
+    font-size: xxx-large;
+    font-family: "Poppins";
+    color: white;
+    padding: 20px;
+}
+
+.are-main {
+    height: auto;
+    background-color: #f6f4f0;
+    position: relative;
+    padding-bottom: 25px;
+    /* border-radius: 6px; */
+}
+
+.detail-travelstyle {
+    font-family: "Poppins", cursive;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 3%;
+}
+
+.travelstyle-container {
+    height: auto;
+    background-color: #f6f4f0;
+    position: relative;
+    border-radius: 6px;
+}
+
+.title-travelstyle {
+    text-align: center;
+    padding-top: 3%;
+    font-family: "Poppins", cursive;
+    color: white;
+    font-size: 140px;
+}
+
+.page-up {
+    background-color: #fff;
+}
+
+.title-top {
+    font-family: "Poppins", serif;
+    padding: 2% 0 0 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.travelstyle-title {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Poppins";
+    margin-top: 5%;
+}
+
+.travelstyle-detail {
+    text-align: center;
+    padding: 3% 5% 0 5%;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.travelstyle-bottom {
+    text-align: center;
+    margin: 5% 5% 3% 5%;
+}
+
+.simpletour-1 {
+    height: auto;
+    background-color: #fff1e100;
+    width: 85%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin: 2% auto;
+    border-radius: 6px;
+}
+
+.text-highlight {
+    height: auto;
+    width: 94%;
+    margin: 0 0 0 3%;
+    border-radius: 6px;
+    padding: 3% 0 2% 0;
+}
+
+.nor .top-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.rev .top-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 850px) {
+    .title-top {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .top-container {
+        flex-direction: column !important;
+    }
+
+    .simpletour-1 {
+        width: 95% !important;
+    }
+    .middle-page {
+        font-size: 12px;
+    }
+    .end-page {
+        font-size: 15px;
+    }
+    .title-travelstyle {
+        font-size: 70px;
+    }
+}
+/* .pagination{
+  display: flex;
+  justify-content: center;
+} */
+
+.blog-travelstyle {
+    margin-top: 4%;
+    color: #ffff;
+}

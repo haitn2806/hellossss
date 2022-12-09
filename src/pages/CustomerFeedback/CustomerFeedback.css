@@ -1,0 +1,85 @@
+.pagefb {
+    width: 50%;
+    margin: 7% 0 2% 25%;
+}
+.title-fb {
+    font-size: xxx-large;
+    font-weight: 700;
+    font-family: "Poppins";
+    margin: 3% 8%;
+}
+.pagefb > h1 {
+    text-align: left;
+    margin: 2% 0 2% 1%;
+}
+.inputname {
+    text-align: left;
+    margin: 0 0 0 6%;
+    font-weight: 700;
+    font-size: 16px;
+}
+.pagefb > p {
+    color: #1e1e1e;
+}
+.pagefb > input {
+    width: 90%;
+    height: 35px;
+    outline: solid 1px;
+    padding: 0 8px;
+    border-radius: 4px;
+}
+.media-content {
+    width: 90%;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.media-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-check span {
+    font-size: 14px !important;
+    margin-left: 1%;
+}
+
+#message {
+    height: 100px;
+}
+.pagefb > #checkbox {
+    width: 2%;
+    outline: none;
+}
+.bottom-feed {
+    padding: 1% 0 3% 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1% 79% 1% 1%;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bottom-feed > h1 {
+    padding: 4% 10% 0% 10%;
+    font-family: "Poppins";
+}
+.bottom-feed >a{
+    color: gray;
+    text-decoration-line: underline;
+}
+.somefeedback{
+    font-size: 40px;
+    margin: 0 12% 0 8%;
+    font-style: oblique;
+    font-family: auto;
+    border-top: solid 1px;
+}

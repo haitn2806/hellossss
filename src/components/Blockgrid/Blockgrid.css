@@ -1,0 +1,118 @@
+.blockgrid {
+    width: 100%;
+}
+.grid1 {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.itembig,
+.itemsmall {
+    border: 1px solid black;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.itembig:hover,
+.itemsmall:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px -23px 25px 0px inset,
+        rgba(0, 0, 0, 0.3) 0px -36px 30px 0px inset,
+        rgba(0, 0, 0, 0.3) 0px -79px 40px 0px inset,
+        rgba(0, 0, 0, 0.1) 0px 2px 1px, rgba(0, 0, 0, 0.15) 0px 4px 2px,
+        rgba(0, 0, 0, 0.15) 0px 8px 4px, rgba(0, 0, 0, 0.15) 0px 16px 8px,
+        rgba(0, 0, 0, 0.15) 0px 32px 16px;
+    cursor: pointer;
+}
+.itemsmall {
+    width: 32%;
+}
+.itembig {
+    flex: 2;
+}
+.b1 {
+    margin-right: 2%;
+    background-image: url(https://th.bing.com/th/id/R.a6eb09a173fcab8038c29e2bfa012766?rik=ldXURFL96Be9Fw&riu=http%3a%2f%2fwww.gmellerbeck.com%2fimages%2ftravel.jpg&ehk=ezTTVDVHlrS0sseQJrq5cmEED0xHFQEhUkZbGeBPKa4%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+.b2 {
+    margin-left: 2%;
+    background-image: url(https://cruise.blog/sites/default/files/inline-images/CC0035_CY_Bordeaux.jpg.highres.jpg);
+    background-size: cover;
+}
+.s1 {
+    background-image: url(https://th.bing.com/th/id/OIP.U8ap1MElsivOTmntzL1IRgHaEc?pid=ImgDet&rs=1);
+    background-size: cover;
+}
+.s2 {
+    background-image: url(https://www.thetravelersbuddy.com/wp-content/uploads/2015/11/P3490092.jpg);
+    background-size: cover;
+}
+.s3 {
+    background-image: url(https://cdn.galaxy.tf/uploads/2s/cms_image/001/563/182/1563182134_5d2c4436e8f69-thumb.jpg);
+    background-size: cover;
+}
+.s4 {
+    background-image: url(https://th.bing.com/th/id/R.67652a8ef24955168fcf20af8fc64d30?rik=%2fHIxrR4bWhYXNQ&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+.s5 {
+    background-image: url(https://www.huntermountaineering.co.uk/wp-content/uploads/2016/05/P5050015.jpg);
+    background-size: cover;
+}
+.box-title {
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    transition: 1s;
+}
+.card-h1 {
+    color: white;
+    font-size: 40px;
+    padding-left: 2%;
+    text-align: start;
+}
+.box-hr {
+    margin-top: 0px;
+    width: 50%;
+    border: 1px solid white;
+}
+.item-content {
+    display: block;
+    padding: 2%;
+    position: relative;
+    /* height:130px; */
+    top: 100%;
+    transition: 1s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.item-content p {
+    color: white;
+}
+
+@media screen and (max-width: 1120px) {
+    .grid1 {
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .grid1 {
+        height: auto;
+        flex-direction: column;
+        margin: 0;
+    }
+    .grid1 div {
+        width: 100%;
+        margin: 0;
+        height: 200px;
+    }
+    .itembig .item-content {
+        position: absolute;
+    }
+    .card-h1 {
+        font-size: 25px;
+    }
+}

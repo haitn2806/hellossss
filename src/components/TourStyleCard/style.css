@@ -1,0 +1,31 @@
+.tour-style-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .tour-style-h1{
+    color: white;
+    text-align: start;
+    padding-left: 10px;
+  }
+  .tour-style-hr{
+    margin-left: 0px;
+    color: white !important;
+  }
+  .tour-style-content{
+    position: absolute;
+    top:100%;
+    transition: 1s;
+    background: linear-gradient(185deg, rgba(250, 248, 248, 0.01) 0.00%,rgba(2, 2, 2, 0.6) 30.00%, rgba(2, 2, 2, 0.9) 100.00%);
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height:100%;
+    padding: 10px;
+  }
+  .tour-style-container:hover .tour-style-title{
+    display: none;
+  }
+  .tour-style-container:hover .tour-style-content{
+    top: 0%;
+  }

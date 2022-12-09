@@ -1,0 +1,39 @@
+.main-review{
+    background-color: #bcac850f;
+    padding: 3% 0 2% 0;
+}
+.title-blog{
+    font-size: 55px;
+    font-family: 'Poppins';
+}
+.sub-title{
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: "Poppins";
+}
+.review{
+    display: flex;
+}
+.review-main{
+    margin: 5% 1% 0 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1%;
+}
+.review-main > p{
+    font-family: "Poppins";
+}
+.review-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.review-main p{
+    margin-left: 50px;
+   width: 50%;
+   font-size: 25px;
+}

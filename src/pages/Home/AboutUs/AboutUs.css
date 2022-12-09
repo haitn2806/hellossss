@@ -1,0 +1,45 @@
+.aboutus {
+  margin-top: 2%;
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.au-h1:hover {
+  text-shadow: 5px 0px 5px rgb(0, 0, 0, 0.5);
+  color: darkgoldenrod;
+}
+
+.au-main {
+  align-items: flex-start;
+  justify-content: center;
+}
+.au-p {
+  width: 100%;
+  text-align: left;
+}
+.au-img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 850px) {
+  .au-p {
+    font-size: 12px;
+  }
+
+  .h3-exce {
+    font-size: 12px;
+  }
+}
+
+.au-exceptional,
+.au-reliable,
+.au-plan {
+  margin-bottom: 25px;
+}
+
+.au-exceptional h3,
+.au-reliable h3,
+.au-plan h3 {
+  text-align: left;
+  margin-bottom: 1em;
+}

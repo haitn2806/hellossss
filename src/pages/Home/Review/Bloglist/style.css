@@ -1,0 +1,10 @@
+.list-blog{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+
+}
+.list-blog img{
+    width: 30%;
+    height: auto;
+}

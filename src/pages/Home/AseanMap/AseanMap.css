@@ -1,0 +1,63 @@
+.asean-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 5% 0%;
+}
+.asean-container p{
+    margin: 0% 10%;
+    margin-bottom: 5%;
+}
+.asean-map{
+    width: 100%;
+    position: relative;
+}
+.map-img{
+    width: 100%;
+    height: auto;
+}
+.map-infor, .icon-s{
+    position: absolute;
+}
+.icon-s{
+    font-size: 30px;
+}
+.map-infor{
+    top:5%;
+    left:5%;
+    width: 30%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.infor-img{
+    width: 100%;
+}
+.map-infor h1{
+    text-align: center;
+}
+.ics1{
+    top: 34%;
+    left: 60%;
+}
+.ics2{
+    top: 36%;
+    left: 57%;
+}
+.ics3{
+    top: 46%;
+    left: 58.5%;
+}
+.ics4{
+    top:42% ;
+    left: 56%;
+}
+.vn-map{
+    position: absolute;
+    width: auto;
+    height:90%;
+    z-index: 1;
+    top :5%;
+    right:5%;
+}

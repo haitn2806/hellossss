@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chelsea+Market&family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700;800&family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,500;1,700;1,900&display=swap");
+
+.book-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  overflow: scroll;
+
+}
+.book-form {
+  z-index: 2;
+  margin: auto auto;
+  margin-top: 110px;
+  border-radius: 6px;
+  position: relative;
+  width: 50%;
+  background-color: white;
+}
+.body-form-book input {
+  outline: none !important;
+}
+.h1-book {
+  text-transform: uppercase;
+  background-color: #fff;
+  color: rgba(117, 111, 111, 0.938);
+  padding: 20px;
+  font-style: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-family: "Lora", sans-serif;
+}
+.item-form {
+  /* display: flex; */
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#inp-adult {
+  text-align: center;
+  margin-left: 10px;
+  /* margin-bottom: 20px; */
+  width: 50px;
+}
+#inp-children {
+  text-align: center;
+  margin-left: 10px;
+  /* margin-bottom: 20px; */
+  width: 50px;
+}
+
+.body-form-book {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#inp-form {
+  height: 60px;
+  width: 100%;
+  font-size: 18px;
+  padding: 0 25px;
+  /* border: 1px solid #e5e5e5; */
+  border-bottom: 1px solid #e5e5e5;
+  color: black;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px transparent;
+  transition: 0.2s;
+  margin-bottom: 1%;
+}
+.label-booking {
+  width: 40%;
+  text-align: start;
+  /* margin-bottom: 30px; */
+  font-family: "Lora", sans-serif;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.item-form {
+  margin-bottom: 30px;
+}
+.note-div {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.label-note {
+  font-family: "Lora", sans-serif;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.text-area-booking {
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+.btn-submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+  background-color: #856849;
+  border-radius: 5px;
+  color: white;
+}
+.close-form {
+  z-index: 1;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: auto;
+  /* height: 50px; */
+  background-color: #f63b1a00;
+  border-radius: 50%;
+  color: rgb(207, 201, 201);
+  position: absolute;
+  top: -49px;
+  left: -2px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+#inp-full-name {
+  margin-left: 0;
+  width: 60%;
+}
+#inp-phone {
+  margin-left: 0;
+  width: 60%;
+}
+#inp-email {
+  margin-left: 0;
+  width: 60%;
+}
+.body-form-book > p {
+  font-size: 16px;
+  font-family: "Lora", sans-serif;
+  font-weight: 200;
+}
+.adult-children1{
+  display: flex;
+}
+/*  */
+@media only screen and (max-width: 600px) {
+  /* .label-width-children {
+    width: 100px;
+  } */
+ 
+  .btn-submit {
+    padding: 10px;
+    width: 120px;
+  }
+  #input-color {
+    color: grey;
+  }
+  #inp-adult {
+    width: 20%;
+  }
+  .label-booking, .note-div {
+    font-size: 10px;
+  }
+  .book-form {
+    width: 95%;
+  }
+
+  #inp-date {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  .label-width-children {
+    width: 150px;
+  }
+  .btn-submit {
+    padding: 10px;
+    width: 120px;
+  }
+  #inp-adult {
+    width: 20%;
+  }
+  .label-booking, .note-div {
+    font-size: 16px;
+  }
+  .book-form {
+    width: 80%;
+  }
+
+  #inp-date {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1024px) {
+  .label-width-children {
+    width: 150px;
+  }
+  .btn-submit {
+    padding: 10px;
+    width: 120px;
+  }
+  #inp-adult {
+    width: 20%;
+  }
+  .label-booking {
+    font-size: 16px;
+  }
+  .book-form {
+    width: 70%;
+  }
+
+  #inp-date {
+    margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .label-width-children {
+    width: 150px;
+  }
+  .btn-submit {
+    padding: 10px;
+    width: 120px;
+  }
+  #inp-adult {
+    width: 20%;
+  }
+  .label-booking {
+    font-size: 16px;
+  }
+  .book-form {
+    width: 820px;
+  }
+
+  #inp-date {
+    margin-left: 0px;
+  }
+}

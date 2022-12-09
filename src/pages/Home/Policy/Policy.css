@@ -1,0 +1,46 @@
+.policy {
+    margin-top: 2%;
+    width: 100%;
+    padding: 5% 10%;  
+}
+
+.policy-title {
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.policy-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;   
+}
+
+.policy-intro {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 2em;
+}
+
+.policy-content {
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.policy-content ul {
+    list-style: none;
+    text-align: left;
+}
+
+.policy-content ul li {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 850px) {
+    .policy-intro {
+        font-size: 16px !important;
+    }
+
+    .policy-content ul li {
+        font-size: 12px;
+    }
+}

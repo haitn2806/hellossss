@@ -1,0 +1,61 @@
+.tour-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.img-card{
+    width: 100% ;
+    height: 100%;
+    transition: 0.3s;
+    
+}
+.tour-card-main{
+    background-color:rgb(0, 0, 0,0.5);
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    padding: 5%;
+}
+.hr-full{
+    width: 100% !important;
+    border:1px solid White;
+}
+.h2{
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 20px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid white;
+}
+.gold{
+    color: darkgoldenrod;
+}
+.tour-card-main p{
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+}
+.tour-img-container{
+    overflow: hidden;
+    height: 100%;
+}
+.tour-card-container:hover .img-card{
+    transform: scale(1.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+@media only screen and (max-width: 850px) {
+ .h2{
+    font-size: 14px !important;
+ }
+}

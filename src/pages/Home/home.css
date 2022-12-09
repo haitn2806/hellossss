@@ -1,0 +1,60 @@
+.slide-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.react-slideshow-container {
+    width: 100vh;
+}
+#search {
+    position: absolute;
+    bottom: 100%;
+}
+.hr {
+    width: 70%;
+    border: 2px solid darkslateblue;
+    color: darkslateblue;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.slide-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+.st-h1,
+.st-p {
+    font-family: "Poppins", cursive;
+    text-align: center;
+    color: white;
+}
+.st-h1 {
+    font-size: 80px;
+}
+.st-p {
+    font-size: 30px;
+}
+.hrt {
+    width: 25%;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod !important;
+    transition: 0.5s;
+    text-align: start;
+}
+
+.loading {
+    width: 100%;
+    animation: quay infinite 1s;
+}
+@keyframes quay {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}

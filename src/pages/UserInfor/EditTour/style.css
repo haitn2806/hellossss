@@ -1,0 +1,52 @@
+.form-edit-h1 {
+    margin: 10px 0px;
+    font-size: 25px;
+    color: darkslateblue;
+}
+
+.form-edit label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.form-edit svg {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.number-edit {
+    display: flex;
+}
+
+.div-edit-num {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.right {
+    text-align: end;
+    margin: 20px 0px;
+}
+
+.pink {
+    color: palevioletred;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.grown {
+    color: brown;
+}
+.red {
+    color: red;
+}
+.purple {
+    color: purple;
+}

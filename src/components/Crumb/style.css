@@ -1,0 +1,24 @@
+.crumb{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px ;
+}
+.div-crumb{
+   display: flex;
+   align-items: center;
+}
+.div-crumb svg{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.link-crumb{
+    color: darkslateblue;
+    font-size: 20px;
+}
+.box-crumb{
+    width: 100%;
+    border-top: 20px solid transparent;
+	border-left: 20px solid red;
+	border-bottom: 20px solid transparent;
+   
+}

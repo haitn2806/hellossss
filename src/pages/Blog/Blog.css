@@ -1,0 +1,129 @@
+.main-blog {
+  height: auto;
+}
+.blog-container {
+  width: 100%;
+}
+.title-blogmain {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Dancing Script";
+  color: rgb(15, 12, 12);
+}
+
+.image-blog {
+  width: 100%;
+}
+
+.bot-topblog {
+  width: 100%;
+  padding: 0 15%;
+  margin-top: 4%;
+}
+.bottom-title {
+  padding: 1% 0 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.text-area {
+  font-family: adobe-caslon-pro, serif !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-size: 1.5rem;
+  color: #454545 !important;
+  font-style: italic;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0% auto;
+  display: block;
+  padding: 1em 0;
+}
+.tag-choice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-blog {
+    border: 1px solid black;
+    width: 13%;
+    margin: 0 1% 1% 0;
+    color: black;
+}
+
+.button-active {
+    color: aliceblue;
+    background-color: darkgoldenrod;
+    width: 13%;
+    border: 1px solid darkgoldenrod;
+    margin: 0 1% 1% 0;
+}
+
+.layer-middle {
+    background-color: white;
+    width: 85%;
+    margin: 0 0 2% 7%;
+}
+
+.layerblog-middle {
+    margin: 0 0% 0 7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title-middle {
+  font-family: monospace;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  padding: 5% 0 1% 0;
+}
+
+.layerblog {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.blog-list-des {
+  padding: 2% 5%;
+  width: 100%;
+}
+.blog-item-container {
+  width: 31%;
+  height: 68vh;
+  margin: 8px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .bottom-title,
+  .text-area {
+      font-size: 15px;
+  }
+  .blog-item-container {
+      width: 45%;
+      height: 68vh;
+  }
+
+  .button-blog {
+      /* width: 100%; */
+      width: auto;
+      padding: 0 1%;
+      font-size: 10px;
+  }
+  .blog-list-des {
+      display: block;
+  }
+  /* .layerblog {
+  width: 95%;
+} */
+}
+@media only screen and (max-width: 750px) {
+  .blog-item-container {
+      width: 100%;
+  }
+}

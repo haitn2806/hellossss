@@ -1,0 +1,456 @@
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10000;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link-home img {
+    height: 100% !important;
+    width: auto !important;
+}
+.header-bot {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 72px;
+    background: rgb(0, 0, 1, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+/* .header-bot a{
+      
+  } */
+.header-bot .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+.menu-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    transition: 1s;
+}
+.menu-li a {
+    margin-right: 5px;
+    font-weight: normal;
+    color: white;
+}
+.icon-arrow {
+    color: white;
+    transition: 0.5s;
+}
+
+.change-language:hover .icon-arrow {
+  transform: scale(1, -1);
+}
+
+.menu-li:hover,
+#active {
+    background: rgb(0, 0, 1, 0.2);
+}
+.menu-li:hover svg {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+
+.log {
+    height: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.log p {
+    margin: 4px;
+    padding: 11px;
+    background: rgb(4, 4, 4, 0.5);
+    border-radius: 4px;
+    color: aliceblue;
+}
+.log svg:hover {
+    color: cornflowerblue;
+}
+.signin {
+    border-right: 1px solid gray;
+}
+.post {
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.log svg {
+    color: white;
+    font-size: 25px;
+}
+.logout {
+    border: none;
+    background: none;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-right: 20px;
+    color: white;
+}
+.logout:hover .log-container {
+    top: 100%;
+    position: absolute;
+    transition: 0.5s;
+    /* display: flex; */
+}
+/* .active{
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+     background-image: url('./../Logo/logo-alt.png')
+  } */
+.menu-li:hover .list-hidden {
+    display: flex;
+    top: 100%;
+}
+.menu-li:hover .link-f {
+    color: darkgoldenrod;
+}
+.list-hidden {
+    display: none;
+    position: absolute;
+    top: 90%;
+    z-index: 10;
+    background: rgb(0, 0, 1, 0.7);
+    transition: 1s;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.list-hidden a {
+    margin: 10px 0px;
+    color: white;
+}
+.list-hidden a:hover {
+    color: darkgoldenrod;
+}
+
+.list-mini {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+.list-mini a {
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    margin-right: 5px;
+    border: 1px solid white;
+}
+.list-mini a:hover {
+    color: darkgoldenrod;
+}
+/* 
+  .list-1{
+      left:0%;
+      width: 500%;
+      padding: 10px;
+  } */
+
+.list-1,
+.list-2,
+.list-3,
+.list-4 {
+    left: 0%;
+    width: 100%;
+}
+
+.list-2 a,
+.list-1 a {
+    width: 100%;
+    border-top: 1px solid grey;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.list-3 a {
+    width: 100%;
+    border-top: 1px solid grey;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.list-4 a {
+    width: 100%;
+    border-top: 1px solid grey;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.list-country {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* find - phone css */
+.phone-find-container {
+    padding: 5px 0px;
+    margin-right: 2%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.find-container {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 4px;
+}
+.find-btn {
+    color: white;
+}
+.find-container:hover {
+    border: 1px solid darkgoldenrod;
+}
+.find-container:hover svg,
+.find-container:hover button {
+    color: darkgoldenrod;
+}
+.header-icon {
+    color: white;
+    margin-right: 10px;
+}
+.phone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+.phone-number {
+    color: white;
+    font-size: 15px !important;
+}
+
+#show {
+    top: 125%;
+    position: absolute;
+    transition: 0.5s;
+}
+#hidden {
+    top: -200%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+/* Log in css */
+.log-container {
+    display: flex;
+    /* display: none; */
+    flex-direction: column;
+    width: 10%;
+    position: absolute;
+    right: 0%;
+    /* bottom: 0%; */
+}
+.log-link {
+    padding: 10px;
+    background: rgb(4, 4, 4, 0.5);
+    border-bottom: 1px solid gray;
+    color: white;
+}
+.icon-list-mobile {
+    display: block;
+    color: white;
+    font-size: 30px;
+    display: none;
+    width: 25px;
+    margin: 0 !important;
+}
+.menu-mobile div a {
+    color: white;
+    font-weight: normal;
+}
+.clickout-mobile {
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+}
+.change-language {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.lang-title {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.change-language:hover .lang-title {
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+
+.language-value {
+    position: absolute;
+    background: rgb(0, 0, 1, 0.5);
+    top: 100%;
+    width: 100%;
+}
+.p-click-lang svg {
+    margin-right: 10px;
+}
+
+.lang-p {
+    padding: 10px !important;
+    border-top: 1px solid silver;
+    margin: 0 !important;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.lang-p:hover {
+    color: darkgoldenrod;
+    transition: 0.5s;
+}
+
+/*Reponsive   */
+
+.menu-mobile {
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    width: 30%;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    /* transition: 1s; */
+    right: 0%;
+}
+.menu-mobile div {
+    /* height: 0px; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu-mobile a {
+    /* height: 20px; */
+    padding: 0 10px;
+    text-align: start;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.title-mobile {
+    width: 100% !important;
+    text-align: start;
+    margin: 0px;
+    padding: 10px !important;
+    color: white;
+    border-bottom: 0.5px solid silver;
+    border-top: 0.5px solid silver;
+    background-color: rgb(0, 0, 0, 0.7) !important;
+}
+.link-finder-mobile {
+    display: block;
+    width: 100% !important;
+    padding: 10px !important;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7) !important;
+}
+.p-click-lang {
+    display: flex;
+    align-items: center;
+}
+.language-value {
+    display: none;
+}
+.change-language:hover .language-value {
+    display: block;
+}
+@media screen and (max-width: 1120px) {
+   *{
+    transition: none;
+   }
+    .header-bot a {
+        font-size: 10px !important;
+        justify-content: flex-end;
+    }
+    .lang-title,
+    .find-btn,
+    .logout {
+        font-size: 10px !important;
+    }
+
+    .phone-find-container {
+        margin: 0;
+    }
+    .phone-number {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+   
+    .clickout-mobile {
+        display: flex;
+    }
+    .menu {
+        display: none !important;
+    }
+    .log-container {
+        display: none;
+    }
+    #showfind {
+        display: none;
+    }
+    .phone-find-container {
+        flex-direction: row;
+    }
+    .phone-container {
+        margin: auto;
+    }
+    .find-container {
+        margin: auto;
+    }
+    .log {
+        display: none;
+    }
+    .icon-list-mobile {
+        display: block;
+        margin-right: 20px;
+    }
+    .change-language {
+        display: none;
+    }
+}

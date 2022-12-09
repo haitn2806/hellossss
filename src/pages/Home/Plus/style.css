@@ -1,0 +1,11 @@
+.plus p {
+  padding: 20px 20%;
+}
+.plus img {
+  width: 70%;
+}
+@media only screen and (max-width: 850px) {
+  p {
+    font-size: 12px !important;
+  }
+}

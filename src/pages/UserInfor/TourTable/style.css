@@ -1,0 +1,98 @@
+.table-booking-main{
+    width: 100%;
+}
+.table-booking-main th{
+    background-color: rgb(216, 214, 214);
+    padding: 10px 0;
+    border:1px solid white ;
+    font-size: 12px;
+}
+.table-booking-main td{
+    border-top: 1px solid silver; 
+    border-bottom: 1px solid silver;
+    font-size: 12px;
+    padding: 0 5px;
+   
+}
+tr:hover {
+    background-color: rgb(225, 227, 228);
+}
+.td-ex{
+    background-color: rgb(215, 212, 212);
+    padding: 0 10px;
+}
+.td-title p{
+    color: green;
+    font-size: 12px;
+    
+}
+.td-title{
+    text-align: start;
+    padding: 0 5px;
+}
+.td-start{
+    color:cornflowerblue;
+    font-weight: bold;
+}
+.td-start p{
+    padding: 0 5px;
+    margin: 0 auto;
+    width: fit-content;
+    background-color: green;
+    color: white;
+}
+.td-book{
+    color:cornflowerblue;
+    font-weight: bold;
+}
+.td-edit-icon{
+    font-size: 20px;
+    color: forestgreen;
+}
+.done{
+    color: red;
+}
+.prepare{
+    color: green;
+}
+.pending{
+    color: blue;
+}
+.icon-att{
+    margin-right: 10px;
+    /* font-size: 20px !important; */
+}
+.icon-profile{
+    color: blue;
+}
+.icon-noti{
+    color: darkgoldenrod;
+    
+}
+.div-noti{
+    position: relative;
+}
+.num-noti{
+    position: absolute;
+    font-size: 10px !important;
+    background-color: red;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 50%;
+    right:10%;
+    top: -10%;
+}
+.icon-booking{
+    color:green;
+}
+.icon-wish{
+    color: deeppink;
+}
+/* .tr:hover {
+    
+} */
+@media only screen and  (max-width: 850px) {
+    .num-noti{
+        font-size: 6px !important;
+      }
+    }

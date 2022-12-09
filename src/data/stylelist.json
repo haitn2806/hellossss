@@ -1,0 +1,67 @@
+[
+    {   
+        "id":1,
+        "title":"Classic",
+        "content":"Classic products of VNXpedia spread throughout the length of the country and with two neighboring countries Cambodia and Laos. The opportunity to experience the fusion of tour types in this suite is considered the most prominent feature of our brand. You will be surprised to choose one of the programs below."
+    },
+    {   
+        "id": 2,   
+        "title":"Culinary",
+        "content":"Ranked as one of the rare countries in the world with the richest cuisine. The traditional delicacies of Vietnam are distinguished not only by the variety of ingredients that combine ingredients from the subtropical natural breath of ingredients and spices, but also famous for their age-old secrets. The heirloom is fully inherited and is being brought up to the level of sophistication to conquer the taste buds of foodies around the world. VNXpedia's food tours are an opportunity for diners to taste and experience most of these quintessence, from street food to royal parties."
+    },
+    {
+        "id":3,
+        "title":"Short trip",
+        "content":"The hustle and bustle of life is not an ideal condition for many tourists who want to experience Vietnam with not much holiday time. We have carefully researched and built short-term travel programs and products, but still enough time for customers to have all the memories and experiences. Short-term products spread throughout 3 regions of Vietnam bring full satisfaction to customers."
+    },
+    {
+        "id":4,
+        "title":"Family",
+        "content":"Unlike all other countries in the world. The diversity of weather, geography, culture, cuisine, religion among regions. That creates a mysterious and exciting Vietnam and is a trending trend of family travel programs. Generations in a family have their own experience and enjoyment of each tailor-made program."
+    },
+    {
+        "id":5,
+        "title":"Beach",
+        "content":"With a coastline stretching from the northern pole (Mong Cai) to the southernmost tip of the country (Ca Mau) - Vietnam is also known as the island nation with many enchanting beaches and mysterious caves. Many times recently, the beaches of Da Nang, Nha Trang, Phu Quoc and the system of sea islands and Ha Long caves have been honored by reputable tourism organizations and magazines. Please see below for more details."
+    },
+    {
+        "id":6,
+        "title":"Adventure",
+        "content":"Diverse geological activities and unique geographical location are what the history of the earth and nature have bestowed on the S-shaped strip of land. Only in Vietnam can it be fully experienced from these arcs. the road through the old forest to eat and sleep with the locals, to cycle on beautiful roads. Feel the richness of nature when conquering majestic mountain peaks, come to explore and marvel in the longest and most beautiful Son Doong cave system of the planet. It took us a lot of research and listening to come up with a very high quality adventure kit."
+    },
+    {
+        "id":7,
+        "title":"Cruise",
+        "content":"Cruises on luxury yachts on Ha Long Bay, Nha Trang Bay to enjoy the ravishing scenery under the sunset. Take a cruise along the mysterious Mekong River, visit cities and towns to wild villages on the way to visit by comfortable and classy yacht."
+    },
+    {
+        "id":8,
+        "title":"Golf",
+        "content":"The golf course system in Vietnam is said to be diverse and beautiful covering most of the cities in the map. The services of this product are also dominating compared to other countries in the region. VNXpedia is proud to be closely associated with the national golf course system, successfully organizing many famous Golf Tournaments during its operation."
+    },
+    {
+        "id":9,
+       "title":"Heritage",
+        "content":"Cruises on luxury yachts on Ha Long Bay, Nha Trang Bay to enjoy the ravishing scenery under the sunset. Take a cruise along the mysterious Mekong River, visit cities and towns to wild villages on the way to visit by comfortable and classy yacht."
+    },
+    {
+        "id":10,
+        "title":"Luxury",
+        "content":"We don't create too many luxury products to focus mainly on the quality of the tour. We are particularly demanding in the construction of these luxury programs. You will have the opportunity to experience the most luxurious and unique of the suggested products."
+    },
+    {
+        "id":11,
+        "title":"Mice",
+        "content":"VNXpedia is a comprehensive strategic partner with a network of MICE service providers throughout Indochina. We aim to perfect the brand to become a famous DMC (destination management company) in the region. Our MICE products have conquered demanding customers."
+    },
+    {
+        "id":12,
+        "title":"Welles",
+        "content":"Combining elements that nature favors in medicinal resources and preserved traditional methods. The facilities are enough and ready to deliver extremely unique Wellness products and value for money. In addition, appropriate scouting lessons are also a key value in VNxpedia's wellness product range."
+    },
+    {
+        "id":13,
+        "title":"Reponsible",
+        "content":"The core value in VNXpedia's activities and products - it is towards protecting the environment, preserving local cultural values and the community. Join hands to take actions to maintain gender equality, eradicate poverty and support local people. We are really excited to introduce these unique products in the ecosystem and bring interested guests to the fullest when participating in the programs."
+    }
+]

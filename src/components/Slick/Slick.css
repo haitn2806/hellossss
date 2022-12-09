@@ -1,0 +1,23 @@
+/* .img {
+  transform: scale(0.5) translate(-100%, -100%);
+}
+div1{
+    justify-content: center;
+}
+.slick-container{
+    height: 100px;
+}
+ */
+/* 
+.tag {
+  text-align: center;
+} */
+
+.imgslider .slick-img {
+  /* margin: auto;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  width: 100%;
+  overflow-y: hidden;
+  height: 40%; */
+}

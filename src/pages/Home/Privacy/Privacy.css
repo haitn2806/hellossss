@@ -1,0 +1,46 @@
+.privacy {
+    margin-top: 2%;
+    width: 100%;
+    padding: 5% 10%;  
+}
+
+.privacy-title {
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.privacy-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;   
+}
+
+.privacy-intro {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 2em;
+}
+
+.privacy-content {
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.privacy-content ul {
+    list-style: none;
+    text-align: left;
+}
+
+.privacy-content ul li {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 850px) {
+    .privacy-intro {
+        font-size: 16px !important;
+    }
+
+    .privacy-content ul li {
+        font-size: 12px;
+    }
+}

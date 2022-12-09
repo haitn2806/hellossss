@@ -1,0 +1,29 @@
+.feedbackpar{
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 2% 7% 3% 7%;
+    overflow-y: scroll;
+}
+.feebackchil{
+    width: 30%;
+    display: flex;
+    margin: 1%;
+    border: solid 1px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.imagcustomer{
+    width: 30%;
+    background-image: url('./../../../data/images/banner/sea.jpg');
+    background-size: cover;
+    background-position: center;
+   
+}
+.property{
+    width: 70%;
+    
+}
+.padding2percent{
+    padding: 2% 0 1% 0;
+}

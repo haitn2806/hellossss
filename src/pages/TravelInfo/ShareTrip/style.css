@@ -1,0 +1,102 @@
+
+.share-form{
+  padding-bottom: 20px;
+}
+.share-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.share-item p {
+  margin-right: 5px;
+}
+.input-4 {
+  outline: none;
+  height: 20px;
+  width: 100%;
+  border: 1px solid silver;
+}
+.note-p {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.share-form-body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#share-form-body-p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Lora", sans-serif;
+  font-weight: 200;
+}
+
+.share-text-area {
+  padding-bottom: 20px;
+}
+.text-share-area {
+  width: 80%;
+  height: 100px;
+  /* font-family:"Lora", sans-serif ; */
+}
+.share-label-booking {
+  display: flex;
+  justify-content: end;
+}
+
+@media only screen and (max-width: 600px) {
+  .share-label-booking {
+    display: inline-block;
+    justify-content: start;
+    font-size: 10px;
+  }
+
+  .text-share-area {
+    height: 60px;
+    font-size: 12px;
+  }
+
+  .label-booking {
+    font-size: 10px;
+  }
+  .share-item {
+    display: block;
+    margin-bottom: 17px;
+  }
+  #inp-email,
+  #inp-fullname {
+    font-size: 10px;
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 876px) {
+  .share-label-booking {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+  }
+
+  .label-booking {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 876px) {
+  .share-label-booking {
+    /* display: flex; */
+    justify-content: end;
+  }
+
+  /* .add-btn {
+    width: 135px;
+  } */
+  .label-booking {
+    display: flex;
+    align-items: flex-end;
+  }
+  #inp-email,
+  #inp-fullname {
+    width: 60%;
+    padding:0 10px;
+  }
+}

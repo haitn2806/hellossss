@@ -1,0 +1,232 @@
+.slide-item1 {
+    background-image: url("../../data/images/banner/23.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: zoom 12s infinite;
+}
+.slide-item2 {
+    background-image: url("../../data/images/banner/36.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: zoom 12s infinite;
+}
+.slide-item3 {
+    background-image: url("../../data/images/banner/17.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: zoom 12s infinite;
+}
+.slide-item4 {
+    background-image: url("../../data/images/banner/26.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: zoom 12s infinite;
+}
+.slide-item5 {
+    background-image: url("../../data/images/banner/34.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: zoom 12s infinite;
+}
+.slide-boder {
+    position: relative;
+}
+
+.carousel-icon--prev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translateX(-50%);
+    background-color: #e8e6e5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 27px;
+    color: #3f3c3c;
+    padding: 12px;
+}
+
+.carousel-icon--next {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateX(-50%);
+    background-color: #e8e6e5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 27px;
+    color: #3f3c3c;
+    padding: 12px;
+}
+
+.title-wellcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f5f0e8;
+    opacity: 0.8;
+    color: #545454;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.slide-title {
+    font-family: "Merriweather", serif;
+    font-size: 39px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.slide-content {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    align-items: center;
+}
+
+.slide-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 12px 20px;
+    background-color: #234c47;
+    border-radius: 6px;
+}
+
+.slide-h1 {
+    font-size: 60px;
+    position: relative;
+    color: white;
+    animation: toleft 2s forwards;
+}
+.slide-h2 {
+    font-size: 100px;
+    position: relative;
+    color: white;
+    animation: toleft2 3s forwards;
+}
+@keyframes toleft {
+    0% {
+        left: 40%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+@keyframes toleft2 {
+    0% {
+        left: 40%;
+    }
+    50% {
+        left: 40%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .sli {
+        height: 400px !important;
+        line-height: 400px !important;
+    }
+    .slide-h1 {
+        font-size: 50px;
+    }
+    .slide-h2 {
+        font-size: 70px;
+    }
+
+    .carousel-icon--prev {
+        top: 42%;
+    }
+
+    .carousel-icon--next {
+        top: 42%;
+    }
+
+    .title-wellcome {
+        top: 25%;
+        padding: 20px 0;
+    }
+
+    .slide-title {
+        font-size: 30px;
+    }
+
+    .slide-content {
+        font-size: 14px;
+    }
+
+    .slide-link {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .sli {
+        height: 200px !important;
+        line-height: 200px !important;
+    }
+    .slide-h1 {
+        font-size: 20px;
+    }
+    .slide-h2 {
+        font-size: 30px;
+    }
+
+    .carousel-icon--prev {
+        display: none;
+    }
+
+    .carousel-icon--next {
+        display: none;
+    }
+
+    .title-wellcome {
+        top: 25%;
+        left: 50%;
+        padding: 4px 0;
+        border-radius: 10px;
+        width: 85%;
+    }
+
+    .slide-title {
+        font-size: 18px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .slide-content {
+        font-size: 14px;
+    }
+
+    .slide-link {
+        font-size: 10px;
+        padding: 6px;
+    }
+}

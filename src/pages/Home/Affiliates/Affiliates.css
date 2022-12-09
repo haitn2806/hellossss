@@ -1,0 +1,51 @@
+.affiliates{
+    margin-top: 2%;
+    width: 100%;
+    padding: 5% 10%;  
+}
+
+.affiliates-title {
+    margin-bottom: 48px;
+}
+
+.affiliates-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;   
+    margin-bottom: 0;   
+}
+
+.affiliates p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+
+.affiliates-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.affiliates-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.affiliates-icon {
+    font-size: 30px;
+}
+
+.affiliates-list p {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2f2f2f;
+    margin-top: 12px;
+}
